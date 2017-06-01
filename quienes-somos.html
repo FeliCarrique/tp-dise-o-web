@@ -68,6 +68,11 @@
 					<h2>Contactanos</h2>
 				</div>	
 			<form method="POST" action="enviar.php" enctype="multipart/form-data">
+				<input type="hidden" name="subject" value="consultas">
+				<input type="hidden" name="recipient" value="fcarrique@infobae.com">
+				<input type="hidden" name="redirect" value="gracias.html">
+
+
 				<label for="nombre"></label>
 				<input type="text" name="nombre" placeholder="Nombre" required>
 
@@ -81,6 +86,8 @@
 				<textarea name="message" placeholder="Mensaje"></textarea>
 
 				<input class= "boton" type="submit" value="Send">
+
+
 
 			</form>
 		</div>

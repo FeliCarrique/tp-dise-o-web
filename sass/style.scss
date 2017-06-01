@@ -1,5 +1,6 @@
 @import "variables";
 
+
 .full{
 	background-color: black;
 	img{
@@ -98,6 +99,7 @@
 		border-top: 1px solid grey;
 		padding-top: 20px;
 		padding-bottom: 20px;
+		color: white;
 		@media (max-width: 420px){
 			flex-direction: column;
 		}
