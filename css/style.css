@@ -1,0 +1,112 @@
+.full {
+  background-color: black; }
+  .full img {
+    padding-bottom: 30px; }
+
+.segunda {
+  background: black;
+  font-family: "Playfair Display", serif; }
+
+.navbar-inverse {
+  font-family: "Playfair Display", serif;
+  text-transform: uppercase; }
+  .navbar-inverse .logo {
+    font-size: 30px; }
+
+.segunda2 {
+  color: grey;
+  border-top: 1px solid grey;
+  padding-top: 20px;
+  text-align: center;
+  border-bottom: 1px solid grey;
+  padding-bottom: 30px;
+  margin-bottom: 30px; }
+  .segunda2 h2 {
+    padding-bottom: 20px;
+    text-transform: uppercase; }
+
+.thumbnail {
+  background: black;
+  border: none;
+  color: white;
+  padding-right: 0px;
+  text-align: center; }
+  .thumbnail a {
+    color: grey;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px; }
+    .thumbnail a:hover {
+      color: white; }
+
+.titulo {
+  background: black;
+  text-align: center;
+  color: grey; }
+
+.footer {
+  padding-top: 30px;
+  background-color: black;
+  color: white;
+  font-size: 10px;
+  font-family: "Playfair Display", serif; }
+  .footer h4 {
+    font-size: 12px; }
+  .footer p {
+    display: block; }
+  .footer ul {
+    display: flex;
+    list-style-type: none;
+    align-items: flex-end; }
+    .footer ul li {
+      margin: 10px;
+      font-size: 15px;
+      color: white; }
+  .footer .footer2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid grey;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    @media (max-width: 420px) {
+      .footer .footer2 {
+        flex-direction: column; } }
+
+/*QUIENES SOMOS*/
+.quienes-somos {
+  background: black;
+  padding: 60px;
+  font-family: "Playfair Display", serif;
+  color: white; }
+  .quienes-somos .barras {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey; }
+    .quienes-somos .barras h2 {
+      text-transform: uppercase;
+      font-size: 20px;
+      padding: 30px;
+      color: grey; }
+  .quienes-somos article {
+    padding-top: 20;
+    text-align: center; }
+    .quienes-somos article img {
+      padding: 30 0px;
+      margin-top: 20px;
+      margin-bottom: 20px; }
+    .quienes-somos article h3 {
+      font-size: 30px;
+      text-transform: uppercase;
+      color: grey; }
+    .quienes-somos article input, .quienes-somos article textarea {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin: 10px; }
+    .quienes-somos article .boton {
+      max-width: 25%;
+      margin-top: 10px;
+      background: grey;
+      border-color: grey; }
+
+/*# sourceMappingURL=style.css.map */

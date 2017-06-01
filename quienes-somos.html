@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,900" rel="stylesheet">
+</head>
+<body>
+<!--NAVBAR-->
+<nav class="navbar-inverse navbar-default">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand logo" href="index.html">Jermyn Street</a>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="quienes-somos.html">Quiénes somos<span class="sr-only">(current)</span></a></li>
+				<li><a href="contacto.html">Locales</a></li>
+			</ul>
+
+			<ul class="nav navbar-nav navbar-right">
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Productos<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Camisas</a></li>
+						<li><a href="#">Pantalones</a></li>
+						<li><a href="#">Sacos</a></li>
+						<li><a href="#">Sweaters</a></li>
+						<li><a href="#">Corbatas</a></li>
+						<li><a href="#">Accesorios</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div><!-- /.navbar-collapse -->
+	</div><!-- /.container-fluid -->
+</nav>
+
+<section class="quienes-somos">
+	<article class="container col-s-6">
+
+		<h3>Trabajamos en familia</h3>
+		<img src="imagenes/familia.jpg" width="100%">
+		
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</article>
+	<br>
+	<br>
+	<article class="container col-s-6">
+		<div>
+				<div class="container barras">
+					<h2>Contactanos</h2>
+				</div>	
+			<form method="POST" action="enviar.php" enctype="multipart/form-data">
+				<label for="nombre"></label>
+				<input type="text" name="nombre" placeholder="Nombre" required>
+
+				<label for="email"></label>
+				<input type="email" name="email" placeholder="Correo electrónico" required>
+
+				<label for="edad"></label>
+				<input type="number" name="edad" placeholder="Edad">
+
+				<label for="message"></label>
+				<textarea name="message" placeholder="Mensaje"></textarea>
+
+				<input class= "boton" type="submit" value="Send">
+
+			</form>
+		</div>
+	</article>	
+</section>
+<!--FOOTER-->
+
+<section class="footer">
+	<div class="container">
+	<article class="footer2">
+		<div class="col-s-6 col-md-4">
+			<h4>Contacto</h4>
+			
+				<p>Teléfono: (011) 15 666 6666</p>
+				<p>Rodríguez Peña 1566</p>
+				<p>jermynstreet@jermyn.com</p>
+			
+		</div>
+		<div class="col-s-6 col-md-4">
+			<ul class="social">
+					<li>
+						<span class="ion-social-facebook"></span>
+					</li>
+					<li>
+						<span class="ion-social-twitter"></span>
+					</li>
+					<li>
+						<span class="ion-social-linkedin"></span>
+					</li>
+					<li>
+						<span class="ion-social-pinterest"></span>
+					</li>
+					<li>
+						<span class="ion-social-instagram"></span>
+					</li>
+				</ul>
+		</div>
+		</article>
+	</div>
+</section>
+
+<!--fin FOOTER-->
+
+<!--BOOTSTRAP-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>

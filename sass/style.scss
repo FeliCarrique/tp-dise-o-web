@@ -1,0 +1,155 @@
+@import "variables";
+
+.full{
+	background-color: black;
+	img{
+		padding-bottom: 30px;
+	} 
+	
+}
+
+.segunda{
+	
+	background: black;
+	font-family: $tipo;
+	
+}
+
+.navbar-inverse{
+	font-family: $tipo;
+	text-transform: uppercase;
+	.logo{
+		font-size: 30px;
+	}
+}
+
+
+.segunda2{
+	color: grey;
+	border-top: 1px solid grey;
+	padding-top: 20px;
+	text-align: center;
+	border-bottom: 1px solid grey;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+
+	h2{
+		padding-bottom: 20px;
+		text-transform: uppercase;
+	}
+}
+
+.thumbnail{
+	background: black;
+	border: none;
+	color: white;
+	padding-right: 0px;
+	text-align: center;
+	a{
+		color: grey;
+		text-align: center;
+		text-decoration: none;
+		font-size: 30px;
+		&:hover {
+        color:white;
+    }
+	
+	}
+}
+
+.titulo{
+		background: black;
+		text-align: center;
+		color: grey;
+	}
+
+.footer{
+	padding-top: 30px;
+	background-color: black;
+	color: white;
+	font-size: 10px;
+	font-family: $tipo;
+	
+
+	h4{
+		font-size: 12px;
+	}	
+
+	p{
+		display: block;
+	}
+
+	ul{
+		display: flex;
+		list-style-type: none;
+		align-items: flex-end;
+		li{
+			margin: 10px;
+			font-size: 15px;
+			color: white;
+		}
+	}
+
+
+	.footer2{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		border-top: 1px solid grey;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		@media (max-width: 420px){
+			flex-direction: column;
+		}
+		
+	}
+	
+}
+
+/*QUIENES SOMOS*/
+
+.quienes-somos{
+	background: black;
+	padding:60px;
+	font-family: $tipo;
+	color: white;
+	.barras{
+		border-top: 1px solid grey;
+		border-bottom:1px solid grey;
+		h2{
+			text-transform: uppercase;
+			font-size: 20px;
+			padding: 30px;
+			color: grey;
+		}
+
+	}
+	article{
+		padding-top: 20;
+		text-align: center;
+		img{
+			padding:30 0px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+		h3{
+			
+			font-size: 30px;
+			text-transform: uppercase;
+			color: grey;
+		}
+		
+		input, textarea{
+			display: block;
+			width: 100%;
+			padding: 10px;
+			margin: 10px;
+		}
+		.boton{
+			max-width: 25%;
+			margin-top: 10px;
+			background: grey;
+			border-color: grey;
+		}
+	}
+}
